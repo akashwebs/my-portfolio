@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --primary: #7900FF;
+    --secondry: ##548CFF;
+    --light: ##CFFFDC;
+    --ligt-blue: #93FFD8;
+    --dark: #3E3E3E;
+}
+
+.container {
+    width: 100%;
+    padding: 0 7%;
+}
+
+.secondry-color {
+    color: #548CFF;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #7900FF;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* start banner section */
+
+.banner-section {
+    height: 100vh;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.banner-left {
+    width: 48%;
+}
+
+.banner-left .banner-headline {
+    border-left: 5px solid var(--primary);
+    padding-left: 15px;
+}
+
+.banner-headline h1 {
+    font-family: Yeseva One;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.banner-left p {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.banner-section .banner-right {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-right img {
+    width: 70%;
+}
