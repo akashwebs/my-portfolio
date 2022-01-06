@@ -206,10 +206,6 @@
     padding: 8px 5px;
 }
 
-.contact-form input[type=text]:focus {
-    border: var(--ligt-blue);
-}
-
 .contact-form .text-messege textarea {
     width: 100%;
     border-radius: 5px;
