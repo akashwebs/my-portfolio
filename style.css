@@ -31,6 +31,13 @@
     border-radius: 5px;
 }
 
+.secondry-header {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+
 
 /* start banner section */
 
@@ -48,6 +55,7 @@
 .banner-left .banner-headline {
     border-left: 5px solid var(--primary);
     padding-left: 15px;
+    border-radius: 4px 0 0 4px;
 }
 
 .banner-headline h1 {
@@ -71,4 +79,41 @@
 
 .banner-right img {
     width: 70%;
+}
+
+
+/* start second section */
+
+#card-section {
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container .card-box {
+    width: 32%;
+    padding: 35px 20px;
+    border-radius: 10px;
+    background: var(--ligt-blue);
+    margin-top: 45px;
+}
+
+.card-box img {
+    width: 40%;
+}
+
+.card-box h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 7px 0 14px 0;
+}
+
+.card-box p {
+    font-size: 16px;
+    line-height: 24px;
 }
