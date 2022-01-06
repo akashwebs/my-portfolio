@@ -6,14 +6,6 @@
     text-decoration: none;
 }
 
-:root {
-    --primary: #7900FF;
-    --secondry: ##548CFF;
-    --light: ##CFFFDC;
-    --ligt-blue: #93FFD8;
-    --dark: #3E3E3E;
-}
-
 .container {
     width: 100%;
     padding: 0 7%;
@@ -29,6 +21,12 @@
     display: inline-block;
     color: #fff;
     border-radius: 5px;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background: #3a0774;
+    cursor: pointer;
 }
 
 .secondry-header {
@@ -53,7 +51,7 @@
 }
 
 .banner-left .banner-headline {
-    border-left: 5px solid var(--primary);
+    border-left: 5px solid #7900FF;
     padding-left: 15px;
     border-radius: 4px 0 0 4px;
 }
@@ -98,8 +96,19 @@
     width: 32%;
     padding: 35px 20px;
     border-radius: 10px;
-    background: var(--ligt-blue);
     margin-top: 45px;
+}
+
+#mission-card {
+    background: rgb(186, 230, 255);
+}
+
+#vission-card {
+    background: #f0dec8;
+}
+
+#goal-card {
+    background: rgb(172, 159, 230);
 }
 
 .card-box img {
@@ -173,12 +182,15 @@
 
 #contact-section {
     height: 100vh;
+    background: rgba(30, 89, 128, 0.067);
+    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .contact-container {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .contact-container .hero-img {
@@ -213,10 +225,15 @@
 
 .submit input {
     text-align: center;
-    background: var(--primary);
+    background: #7900FF;
     border: none;
     color: #fff;
     border-radius: 5px;
+}
+
+.submit input:hover {
+    background: #3a0774;
+    cursor: pointer;
 }
 
 
